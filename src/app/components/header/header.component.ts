@@ -6,7 +6,7 @@ import { StarLogoComponent } from '../star-logo/star-logo.component';
   standalone: true,
   imports: [StarLogoComponent],
   templateUrl: './header.component.html',
-  styleUrl: './header.component.scss'
+  styleUrl: './header.component.scss',
 })
 export class HeaderComponent {
   constructor (){}
@@ -22,4 +22,5 @@ export class HeaderComponent {
       this.check=true;
     }
   }
+
 }
