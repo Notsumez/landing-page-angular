@@ -23,4 +23,13 @@ export class HeaderComponent {
     }
   }
 
+  navbarVisible: boolean = true;
+
+  toggleNavbar() {
+    if(this.navbarVisible == true){
+      this.navbarVisible = false;
+    }else{
+      this.navbarVisible = true;
+    }
+  }
 }
